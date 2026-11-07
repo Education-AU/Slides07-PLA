@@ -24,7 +24,7 @@ jobs:
           scope: '@michelvhoward'
       - run: npm install
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_GH_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Install Playwright Chromium
         run: npx playwright install chromium
       - run: npm run build
