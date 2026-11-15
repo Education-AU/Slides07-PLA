@@ -20,14 +20,5 @@ downloads:
 ---
 
 
-The notebooks are provided for you to run the examples and exercises locally.
+The notebooks and images are provided for you to run the examples and exercises locally.
 
-The first notebook contains some examples on SVD especially an image compression example.
-
-The second notebook contains exercises for you to try out.
-
-The third notebook is the full solution to the exercises. You can use it to check your work after you have completed the
-exercises.
-
-The last two downloads are the images used in the example and exercise notebooks. You should download them to run the
-notebooks.
