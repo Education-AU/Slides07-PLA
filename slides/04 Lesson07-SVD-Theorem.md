@@ -16,7 +16,7 @@ This expresses $A$ as a composition of a rotation, a scaling, and another rotati
 1. $U \in \mathbb{R}^{m \times m}$ is orthogonal
 2. $V \in \mathbb{R}^{n \times n}$ is orthogonal
 3. $\Sigma \in \mathbb{R}^{m \times n}$ is a rectangular diagonal matrix
-4. its first $r$ diagonal entries satisfy $\sigma_1 \ge \sigma_2 \ge \dots \ge \sigma_r > 0$,
+4. Its first $r$ diagonal entries satisfy $\sigma_1 \ge \sigma_2 \ge \dots \ge \sigma_r > 0$,
    where $r = \mathrm{rank} (A)$
 
 <!-- /theorem -->

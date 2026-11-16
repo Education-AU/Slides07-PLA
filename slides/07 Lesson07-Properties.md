@@ -1,6 +1,7 @@
 ---
 title: Properties
-template: default
+showFooter : false
+template: two-column
 ---
 
 #### Kernel
@@ -14,7 +15,7 @@ $x\in \ker (A) \Rightarrow x\in \ker (A^TA)$
 conversely
 
 $x\in \ker (A^TA)\Rightarrow 0=\langle A^TAx,x \rangle= \langle Ax,Ax \rangle \Rightarrow Ax=0 \Rightarrow x\in \ker (A)$
-
+<!-- column -->
 #### Rank
 
 $\operatorname{rank} (A^TA)=\operatorname{rank} (A) \text{ and } \operatorname{rank} (AA^T)=\operatorname{rank} (A^T)$

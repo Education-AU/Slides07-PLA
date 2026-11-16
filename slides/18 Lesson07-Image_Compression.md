@@ -21,9 +21,9 @@ A = np.array([[201, 198, 21, 19, 22, 20],
               [200, 203, 199, 202, 198, 201]])
 U_r, S_r, Vt_r = np.linalg.svd(A, full_matrices=False)
 NumberOfKept=4
-U_r_compressed = U_r[:, :NumberOfKept]
+U_r_compressed = U_r[:, :NumberOfKept]#Column selection
 S_r_compressed = np.diag(S_r[:NumberOfKept])
-Vt_r_compressed = Vt_r[:NumberOfKept, :]
+Vt_r_compressed = Vt_r[:NumberOfKept, :]#Row selection
 A_compressed = U_r_compressed @ S_r_compressed @ Vt_r_compressed
 rows, cols = np.indices(A_compressed.shape)
 fig, ax = plt.subplots()

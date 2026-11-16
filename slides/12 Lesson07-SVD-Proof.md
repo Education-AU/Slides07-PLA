@@ -3,7 +3,7 @@ title: Proof SVD
 template: default
 ---
 
-For each basis vector $v_i$, we have
+For each vector $v_i$, we have
 $$
 Av_i =
 \begin{cases}
@@ -13,7 +13,7 @@ Av_i =
 $$
 
 
-Thus, the action of $A$ on the basis $\{v_i\}$ can be written as
+Thus, the action of $A$ on the  $\{v_i\}$ can be written as
 $$
 AV = U \Sigma.
 $$

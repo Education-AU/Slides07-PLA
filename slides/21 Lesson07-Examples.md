@@ -4,5 +4,6 @@ template: default
 ---
 
 Further examples of SVD in Numpy are presented in the first downloadable notebook in the course. The notebook is called
-Lesson07_Examples.ipynb and is available in the downloads section of the course. The notebook contains and examples of
-SVD applied to image compression.
+Lesson07_Examples.ipynb and is available in the downloads section of the course. 
+
+The notebook contains an example of SVD applied to image compression. Remember to download the images from the downloads section of the course.
