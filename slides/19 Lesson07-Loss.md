@@ -15,7 +15,7 @@ $$
 $$
 Which can be shown to be the same as
 $$
-\operatorname{EnergyLoss}=1-\frac{\sum_{i=k}^{r} \sigma_i^2}{\sum_{i=1}^{r} \sigma_i^2}
+\operatorname{EnergyLoss}=1-\frac{\sum_{i=k+1}^{r} \sigma_i^2}{\sum_{i=1}^{r} \sigma_i^2}
 $$
 <br>
 $$
