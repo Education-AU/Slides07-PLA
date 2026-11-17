@@ -15,6 +15,8 @@ $x\in \ker (A) \Rightarrow x\in \ker (A^TA)$
 conversely
 
 $x\in \ker (A^TA)\Rightarrow 0=\langle A^TAx,x \rangle= \langle Ax,Ax \rangle \Rightarrow Ax=0 \Rightarrow x\in \ker (A)$
+
+Same the thing for the other kernel
 <!-- column -->
 #### Rank
 

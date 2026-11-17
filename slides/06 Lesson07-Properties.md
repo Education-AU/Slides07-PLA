@@ -1,6 +1,5 @@
 ---
 title: Properties
-showFooter : false
 template: default
 
 ---
@@ -29,6 +28,7 @@ $$
    $$
    \langle Sx, x \rangle_{\mathbb{R}^n} = \langle \lambda x, x \rangle_{\mathbb{R}^n} = \lambda \|x\|^2
    $$
-   implying $ \lambda = \frac{\langle Sx, x \rangle_{\mathbb{R}^n}}{\|x\|^2} \ge 0.$
+   implying
+   $$ \lambda = \frac{\langle Sx, x \rangle_{\mathbb{R}^n}}{\|x\|^2} \ge 0.$$
 
     
